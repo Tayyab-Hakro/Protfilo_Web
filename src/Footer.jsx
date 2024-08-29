@@ -4,6 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai';
 import './index.css'; // Make sure to import your CSS file
 import { motion } from 'framer-motion';
 import { fadein } from './variants';
+import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer 
@@ -13,8 +14,8 @@ function Footer() {
       whileInView={"show"}
       viewport={{once:false, amount:0.20}} className="container sm:items-center sm:justify-center text-center  md:mx-auto flex flex-col lg:flex-row md:justify-between md:items-start">
         <div className="flex-1 mb-6 lg:mb-0">
-          <h2 className="text-3xl font-bold mb-2">MyWebsite</h2>
-          <p className="text-gray-400">
+          <h2 className="text-3xl font-bold mb-2">Tayyab Hakro</h2>
+          <p className= "text-1xl text-gray-400">
             A place where creativity meets technology. Bringing your digital presence to life with cutting-edge design and development.
           </p>
         </div>
@@ -23,10 +24,9 @@ function Footer() {
         <div className="flex-1 mb-6 lg:mb-0">
           <h3 className="text-xl font-bold mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="#home" className="hover:underline">Home</a></li>
-            <li><a href="#about" className="hover:underline">About</a></li>
-            <li><a href="#services" className="hover:underline">Services</a></li>
-            <li><a href="#contact" className="hover:underline">Contact</a></li>
+            <li><Link to="/about" className="hover:underline">About</Link></li>
+            <li><Link to="/services" className="hover:underline">Services</Link></li>
+            <li><Link to="/contact" className="hover:underline">Contact</Link></li>
           </ul>
         </div>
 
@@ -37,21 +37,16 @@ function Footer() {
             <AiOutlineMail className="text-2xl mr-2" /> tayyabhakro2k21@gmail.com
           </a>
           <div className="flex justify-center text-center space-x-4">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <Link to="https://github.com/Tayyab-Hakro?tab=repositories" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               <FaGithub className="text-2xl" />
-            </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            </Link>
+            <Link to="https://www.linkedin.com/in/mohammad-tayyab-hakro-1231a0289/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               <FaLinkedin className="text-2xl" />
-            </a>
+            </Link>
             <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               <FaTwitter className="text-2xl" />
             </a>
-            <a href="https://facebook.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
-              <FaFacebook className="text-2xl" />
-            </a>
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
-              <FaInstagram className="text-2xl" />
-            </a>
+
           </div>
         </div>
       </motion.div>

@@ -12,14 +12,14 @@ import Ecommerce_Web from './Allvideos/E_Commerce_frontend.mp4';
 function Work() {
   return (
     <>
-      <h1 className="text-3xl text-center my-8 text-white">My Full Stack Projects</h1>
-      <div className='w-full h-full flex justify-center items-center bg-slate-800 p-20'>
+      <h1 className="text-3xl font-bold font-mono text-center my-8 text-white">My Full Stack Projects</h1>
+      <div className='w-full h-full flex justify-center items-center bg-slate-800 p-0 sm:p-20'>
         <div 
           variants={fadein("down", 0.4)}
           initial='hidden'
           whileInView={"show"}
           viewport={{ once: false, amount: 0.20 }} 
-          className='grid grid-cols-1 sm:grid-cols-2 w-full lg:grid-cols-4 gap-12'
+          className='grid grid-cols-2 sm:grid-cols-2 w-full lg:grid-cols-4 gap-12'
         >
           {/* Card 1 */}
           <motion.div 
@@ -27,7 +27,7 @@ function Work() {
             initial='hidden'
             whileInView={"show"}
             viewport={{ once: false, amount: 0.20 }}
-            className='group bg-slate-700 border border-gray-600 text-white shadow-lg p-6 rounded-lg hover:shadow-xl transition-all hover:scale-105'
+            className='group bg-slate-700 border border-gray-600 text-white shadow-lg p-2 sm:p-6 rounded-lg hover:shadow-xl transition-all hover:scale-105'
           >
             <h1 className='flex items-center text-xl font-bold'>
               Netflix Clone <FaArrowRight className='ml-2'/>

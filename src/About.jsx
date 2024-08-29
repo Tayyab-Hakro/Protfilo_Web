@@ -26,32 +26,33 @@ function About() {
         </div>
       </div>
 
-      <div className="w-full lg:w-2/3 mb-8 s ">
-        <h2 className="text-2xl font-bold mb-4 items-center flex justify-center">Experience</h2>
-        <div className="grid grid-cols-3 sm:grid-cols-3 gap-6 sm:justify-center md:justify-between lg:grid-cols-3">
-          <div className="group bg-slate-800 shadow-lg p-6 rounded-lg relative overflow-hidden">
-            <h3 className="text-xl font-bold">Project 1</h3>
-            <p className="mt-2 group-hover:opacity-0 transition-opacity duration-300">Short description...</p>
-            <div className="absolute inset-0 bg-white p-6 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p>Detailed information about the first project goes here. It's a comprehensive and engaging project that showcases my skills and expertise in web development.</p>
-            </div>
-          </div>
-          <div className="group bg-slate-800 shadow-lg p-6 rounded-lg relative overflow-hidden">
-            <h3 className="text-xl font-bold">Project 2</h3>
-            <p className="mt-2 group-hover:opacity-0 transition-opacity duration-300">Short description...</p>
-            <div className="absolute inset-0 bg-white p-6 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p>Detailed information about the second project goes here. It's a comprehensive and engaging project that showcases my skills and expertise in web development.</p>
-            </div>
-          </div>
-          <div className="group bg-slate-800 shadow-lg p-6 rounded-lg relative overflow-hidden">
-            <h3 className="text-xl font-bold">Project 3</h3>
-            <p className="mt-2 group-hover:opacity-0 transition-opacity duration-300">Short description...</p>
-            <div className="absolute inset-0 bg-white p-6 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <p>Detailed information about the third project goes here. It's a comprehensive and engaging project that showcases my skills and expertise in web development.</p>
-            </div>
-          </div>
-        </div>
+      <div className="w-full lg:w-2/3 mb-8">
+  <h2 className="text-2xl font-bold mb-4 items-center flex justify-center">Experience</h2>
+  <div className="grid grid-cols-3 sm:grid-cols-3 gap-6 sm:justify-center md:justify-between lg:grid-cols-3">
+    <div className="group bg-slate-800 shadow-lg p-6 rounded-lg relative">
+      <h3 className="text-xl font-bold">Project 1</h3>
+      <p className="mt-2">Short description...</p>
+      <div className="absolute inset-0 bg-white p-6 flex flex-col justify-center items-center">
+        <p>Detailed information about the first project goes here. It's a comprehensive and engaging project that showcases my skills and expertise in web development.</p>
       </div>
+    </div>
+    <div className="group bg-slate-800 shadow-lg p-6 rounded-lg relative">
+      <h3 className="text-xl font-bold">Project 2</h3>
+      <p className="mt-2">Short description...</p>
+      <div className="absolute inset-0 bg-white p-6 flex flex-col justify-center items-center">
+        <p>Detailed information about the second project goes here. It's a comprehensive and engaging project that showcases my skills and expertise in web development.</p>
+      </div>
+    </div>
+    <div className="group bg-slate-800 shadow-lg p-6 rounded-lg relative">
+      <h3 className="text-xl font-bold">Project 3</h3>
+      <p className="mt-2">Short description...</p>
+      <div className="absolute inset-0 bg-white p-6 flex flex-col justify-center items-center">
+        <p>Detailed information about the third project goes here. It's a comprehensive and engaging project that showcases my skills and expertise in web development.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
       <div className="w-full lg:w-2/3">
         <h2 className="text-2xl font-bold mb-4 items-center text-center sm:flex sm:justify-center md:flex">Skills</h2>
