@@ -16,11 +16,11 @@ function About() {
           className="w-32 h-32 rounded-full mb-4 lg:mb-0 lg:mr-8"
         />
         <div>
-          <h1 className="text-2xl font-bold">About Me</h1>
+          <h1 className="text-2xl font-bold text-center justify-center">About Me</h1>
           <p className="mt-4 sm:text-white ">
             Hi, I'm Tayyab Hakro, a passionate full-stack web developer. I specialize in designing and developing visually appealing and functional websites. I have experience with a range of programming languages and platforms including HTML, CSS, JavaScript, MongoDB, React.js, Express.js, Node.js, Tailwind CSS, and responsive design. I enjoy collaborating with other developers and designers and am committed to staying updated with industry trends and best practices.
           </p>
-          <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+          <button className="mt-4  px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
             Download CV
           </button>
         </div>
@@ -28,7 +28,7 @@ function About() {
 
       <div className="w-full lg:w-2/3 mb-8 s ">
         <h2 className="text-2xl font-bold mb-4 items-center flex justify-center">Experience</h2>
-        <div className="grid grid sm:grid-cols-3 gap-6 sm:justify-center md:justify-between lg:grid-cols-3">
+        <div className="grid grid-cols-3 sm:grid-cols-3 gap-6 sm:justify-center md:justify-between lg:grid-cols-3">
           <div className="group bg-slate-800 shadow-lg p-6 rounded-lg relative overflow-hidden">
             <h3 className="text-xl font-bold">Project 1</h3>
             <p className="mt-2 group-hover:opacity-0 transition-opacity duration-300">Short description...</p>
@@ -54,9 +54,9 @@ function About() {
       </div>
 
       <div className="w-full lg:w-2/3">
-        <h2 className="text-2xl font-bold mb-4 sm:flex sm:justify-center md:flex">Skills</h2>
-        <div className="flex flex-wrap gap-6 sm:flex-col grid sm:grid-cols-4 justify-center">
-          <div className="flex flex-col items-center">
+        <h2 className="text-2xl font-bold mb-4 items-center text-center sm:flex sm:justify-center md:flex">Skills</h2>
+        <div className="flex flex-wrap gap-6 grid-cols-5 sm:flex-col md:grid-cols-5 md:flex-row md:gap-10   sm:grid-cols-4 justify-center">
+          <div className="flex  items-center flex-col">
             <FaHtml5 className="text-4xl text-orange-600" />
             <span>HTML</span>
           </div>

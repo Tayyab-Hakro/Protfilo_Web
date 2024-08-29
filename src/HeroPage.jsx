@@ -6,7 +6,7 @@ import './Home.css'
 function HeroPage() {
   return (
 <>
-<div className="w-full h-full flex flex-col sm:flex-row-reverse sm:flex-wrap p-10 items-center sm:items-start justify-center sm:justify-between">
+<div className="w-full h-full flex flex-col  text-center sm:flex-row-reverse sm:flex-wrap p-10 items-center sm:items-start justify-center sm:justify-between">
       <div className="hpic w-[70%]  sm:w-[40%] flex justify-center sm:justify-center mb-8 sm:mb-0">
         <img className="w-[80%] h-auto rounded-full sm:items-center sm:flex sm:justify-center" src={myouc} alt="Model" />
       </div>

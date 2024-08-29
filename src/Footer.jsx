@@ -31,12 +31,12 @@ function Footer() {
         </div>
 
         {/* Section 3: Contact Info and Social Media */}
-        <div className="flex-1">
-          <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-          <a href="mailto:contact@mywebsite.com" className="flex items-center mb-4 hover:underline">
+        <div className="flex-1 flex flex-col">
+          <h3 className="text-xl font-bold mb-4 justify-center items-center">Contact Us</h3>
+          <a href="mailto:contact@mywebsite.com" className="flex justify-center items-center mb-4 hover:underline">
             <AiOutlineMail className="text-2xl mr-2" /> tayyabhakro2k21@gmail.com
           </a>
-          <div className="flex space-x-4">
+          <div className="flex justify-center text-center space-x-4">
             <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
               <FaGithub className="text-2xl" />
             </a>
