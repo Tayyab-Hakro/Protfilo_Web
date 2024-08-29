@@ -18,8 +18,6 @@ function App() {
       <Route path='/work' element={<Work/>} />
       <Route path='/contact' element={<Contact/>} />
       <Route path='/services' element={<Services/>} />
- 
-
     </Routes>
     <Footer/>
     </BrowserRouter>

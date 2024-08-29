@@ -7,16 +7,21 @@ function HeroPage() {
   return (
 <>
 <div className="w-full h-full flex flex-col sm:flex-row-reverse sm:flex-wrap p-10 items-center sm:items-start justify-center sm:justify-between">
-      <div className="hpic w-[70%] sm:w-[40%] flex justify-center sm:justify-center mb-8 sm:mb-0">
-        <img className="w-[80%] h-auto rounded-full sm:items-center" src={myouc} alt="Model" />
+      <div className="hpic w-[70%]  sm:w-[40%] flex justify-center sm:justify-center mb-8 sm:mb-0">
+        <img className="w-[80%] h-auto rounded-full sm:items-center sm:flex sm:justify-center" src={myouc} alt="Model" />
       </div>
 
-      <div className=" textPoint text-center p-12 mt-10 sm:text-left">
-        <h1 className="text-4xl font-bold"> Mohammad Tayyab Hakro</h1>
-        <h1 className="text-3xl mt-3 font-bold"> Expert Freelancer </h1>
-        <h1 className="text-3xl mt-3 font-bold">Web Developer</h1>
-        <button className='mt-4 px-4 py-2 bg-blue-500 mr-3'>Hire me</button>
-        <button className='mt-4 px-4 py-2 bg-blue-500'>Contact me</button>
+      <div className=" textPoint text-center text-white p-20 mt-10 sm:text-left">
+        <h1 className='text-4xl mb-2 font-black '>Hi I am <span className='text-blue-400'>Mohammad Tayyab</span> </h1>
+        <h4 className="text-2xl font-serif">& Expert Freelancer Full-Stack Developer </h4> 
+        <p className="text-[15px] mt-3 font-mono">
+  My aim is to build high-quality websites for my clients. <br />
+  I have experience in both Frontend and Backend development.
+</p>
+
+        <h1 className="text-3xl mt-3 font-bold"></h1>
+        <button className='mt-4 px-4 py-2 bg-blue-500 text-white hover:bg-blue-600 transition-colors duration-300 mr-3'>Hire me</button>
+        <button className='mt-4 px-4 py-2 bg-blue-500 text-white hover:bg-blue-600 transition-colors duration-300'>Contact me</button>
 
 
       
@@ -29,7 +34,6 @@ function HeroPage() {
     <div className='home__scroll-box flex justify-center items-start'>
 
     </div>
-    <span className='home__scroll-text flex justify-center items-stat text-white text-2xl font-sans font-bold '>Recent work</span>
     
 </a>
 </>

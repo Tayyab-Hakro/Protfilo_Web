@@ -4,10 +4,11 @@ function Contact() {
   return (
     <>
 
-      {/* Form Section */}
-      <div className="w-full lg:w-2/3 mx-auto mt-4  bg-slate-700 shadow-lg p-6 rounded-lg mb-8">
-        <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-        <form className="flex flex-col gap-4">
+    
+      <div className="w-full lg:w-[40%]  mx-auto mt-4  bg-slate-700 shadow-lg p-10 rounded-lg mb-8">
+        <h2 className="text-2xl font-bold mb-4   sm:justify-center flex sm:items-centerflex-wrap">Contact Us</h2>
+        <form className="flex flex-col md:flex-wrap sm:flex sm:w-full sm:justify-center sm:items-center mt-10 gap-4">
+          <div className='flex gap-8'>
           <input
             type="text"
             placeholder="Name"
@@ -18,14 +19,17 @@ function Contact() {
             placeholder="Email"
             className="p-2 border border-gray-300 rounded-lg"
           />
+          </div>
+          <div className='mt-10 items-start md:flex sm:justify-center  '>
           <textarea
             placeholder="Message"
-            rows="4"
-            className="p-2 border border-gray-300 rounded-lg"
+            rows="6"
+            className="p-2  px-36 border border-gray-300 rounded-lg"
           />
+          </div>
           <button
             type="submit"
-            className="w-full py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
+            className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition"
           >
             Send Message
           </button>

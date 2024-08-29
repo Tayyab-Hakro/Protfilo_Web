@@ -4,7 +4,7 @@ import './index.css'; // Make sure to import your CSS file
 
 function Services() {
   return (
-    <div className="w-full min-h-screen bg-slate-800 p-6">
+    <div className="w-full min-h-full bg-slate-800 p-6">
       <h1 className="text-4xl font-bold text-center mb-8">Our Services</h1>
 
       {/* Services Cards */}
