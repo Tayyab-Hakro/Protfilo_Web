@@ -19,7 +19,7 @@ function Work() {
           initial='hidden'
           whileInView={"show"}
           viewport={{ once: false, amount: 0.20 }} 
-          className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-12'
+          className='grid grid-cols-1 sm:grid-cols-2 w-full lg:grid-cols-4 gap-12'
         >
           {/* Card 1 */}
           <motion.div 
