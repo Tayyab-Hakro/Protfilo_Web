@@ -12,7 +12,7 @@ import Ecommerce_Web from './Allvideos/E_Commerce_frontend.mp4';
 function Work() {
   return (
     <>
-      <h1 className="text-3xl font-bold font-mono text-center my-8 text-white">My Full Stack Projects</h1>
+      <h1 className="text-3xl w-full h-full p-10 bg-slate-900 font-bold font-mono text-center text-white">My Full Stack Projects</h1>
       <div className='w-full h-full flex justify-center items-center bg-slate-800 p-0 sm:p-20'>
         <div 
           variants={fadein("down", 0.4)}
@@ -32,8 +32,8 @@ function Work() {
             <h1 className='flex items-center text-xl font-bold'>
               Netflix Clone <FaArrowRight className='ml-2'/>
             </h1>
-            <p className='my-2'>A clone of the popular Netflix app with custom features and UI.</p>
-            <span>Video Demo:</span>
+            <p className='my-2 text-white'>A clone of the popular Netflix app with custom features and UI.</p>
+            <span className='text-white'>Video Demo:</span>
             <div className='mt-4'>
               <video src={Netflix_Clone} controls alt='Netflix Clone' className='rounded-lg w-full' />
             </div>
@@ -50,8 +50,8 @@ function Work() {
             <h1 className='flex items-center text-xl font-bold'>
               E-commerce Platform <FaArrowRight className='ml-2'/>
             </h1>
-            <p className='my-2'>An online store with modern design and robust functionality.</p>
-            <span>Video Demo:</span>
+            <p className='my-2 text-white'>An online store with modern design and robust functionality.</p>
+            <span className='text-white'>Video Demo:</span>
             <div className='mt-4'>
               <video src={Ecommerce_Web} controls alt='E-commerce Platform' className='rounded-lg w-full' />
             </div>
@@ -68,8 +68,8 @@ function Work() {
             <h1 className='flex items-center text-xl font-bold'>
               Twitter Clone <FaArrowRight className='ml-2'/>
             </h1>
-            <p className='my-2'>A replica of the Twitter interface with real-time functionality.</p>
-            <span>Video Demo:</span>
+            <p className='my-2 text-white'>A replica of the Twitter interface with real-time functionality.</p>
+            <span className='text-white'>Video Demo:</span>
             <div className='mt-4'>
               <video src={Twitter_Clone} controls alt='Twitter Clone' className='rounded-lg w-full' />
             </div>
@@ -86,13 +86,12 @@ function Work() {
             <h1 className='flex items-center text-xl font-bold'>
               Hospital Website <FaArrowRight className='ml-2'/>
             </h1>
-            <p className='my-2'>A website for a hospital featuring a dynamic and responsive design.</p>
-            <span>Video Demo:</span>
+            <p className='my-2 text-white'>A website for a hospital featuring a dynamic and responsive design.</p>
+            <span className='text-white'>Video Demo:</span>
             <div className='mt-4'>
               <video src={Chat_Clone} controls alt='Hospital Website' className='rounded-lg w-full' />
             </div>
           </motion.div>
-
 
         </div>
       </div>

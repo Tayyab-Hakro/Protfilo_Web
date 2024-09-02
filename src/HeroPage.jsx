@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { FaArrowDown } from 'react-icons/fa';
 import myouc from './mt.png';
-import './Home.css';
-
+import { motion } from 'framer-motion';
+import { fadein } from './variants';
 function HeroPage() {
   const [showModal, setShowModal] = useState(false);
 
@@ -12,16 +12,23 @@ function HeroPage() {
 
   return (
     <>
-      <div className="w-full h-full flex flex-col text-center sm:flex-row-reverse sm:flex-wrap p-10 items-center sm:items-start justify-center sm:justify-between">
-        <div className="hpic w-[70%] sm:w-[40%] flex justify-center sm:justify-center mb-8 sm:mb-0">
+      <div  className="w-full  bg-slate-700 h-full flex flex-col text-center sm:flex-row-reverse sm:flex-wrap p-10 items-center sm:items-start justify-center sm:justify-between">
+        <motion.div     variants={fadein("left",0,2)}
+            initial='hidden'
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.20 }} className="hpic w-[70%] sm:w-[40%] flex justify-center sm:justify-center mb-8 sm:mb-0">
           <img
             className="w-[80%] h-auto rounded-full sm:items-center sm:flex sm:justify-center"
             src={myouc}
             alt="Model"
           />
-        </div>
+        </motion.div>
 
-        <div className="textPoint text-center text-white p-20 mt-10 sm:text-left">
+        <motion.div 
+            variants={fadein("right", 0.2)}
+            initial='hidden'
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.90 }} className="textPoint text-center text-white p-20 mt-10 sm:text-left">
           <h1 className="text-4xl mb- font-black">
             Hi I am <span className="text-blue-400">Mohammad Tayyab</span>
           </h1>
@@ -43,7 +50,7 @@ function HeroPage() {
           >
             Contact me
           </button>
-        </div>
+        </motion.div>
         <span className="absolute left-0 bottom-0 w-full h-0.5 bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
       </div>
 
@@ -71,10 +78,6 @@ function HeroPage() {
           </div>
         </div>
       )}
-
-      <a href="#work" className="home__scroll">
-        <div className="home__scroll-box flex justify-center items-start"></div>
-      </a>
     </>
   );
 }

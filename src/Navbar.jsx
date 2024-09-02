@@ -17,23 +17,23 @@ function Navbar() {
       <div className="hidden md:flex items-center">
         <ul className="flex gap-9">
           <li className="group relative cursor-pointer">
-            <Link to="/" className="text-white">Home</Link>
+            <Link to="/Protfilo_Web/" className="text-white">Home</Link>
             <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-200 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
           </li>
           <li className="group relative cursor-pointer">
-            <Link to="/about" className="text-white">About Us</Link>
+            <Link to="/Protfilo_Web/about" className="text-white">About Us</Link>
             <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-200 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
           </li>
           <li className="group relative cursor-pointer">
-            <Link to="/contact" className="text-white">Contact</Link>
+            <Link to="/Protfilo_Web/contact" className="text-white">Contact</Link>
             <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-200 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
           </li>
           <li className="group relative cursor-pointer">
-            <Link to="/work" className="text-white">Work</Link>
+            <Link to="/Protfilo_Web/work" className="text-white">Work</Link>
             <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-200 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
           </li>
           <li className="group relative cursor-pointer">
-            <Link to="/services" className="text-white">Services</Link>
+            <Link to="/Protfilo_Web/services" className="text-white">Services</Link>
             <span className="absolute left-0 bottom-0 w-full h-0.5 bg-green-200 scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
           </li>
         </ul>

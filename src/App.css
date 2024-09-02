@@ -1,5 +1,15 @@
+.card {
+  background-color: #f9fafb; /* Light background color for card */
+  border-radius: 0.5rem; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Hide overflow */
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
 
-/* In Home.css */
-.font-mono {
-  font-family: 'Roboto Mono', monospace;
+.card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+}
+
+.body html{
+  color: white;
 }

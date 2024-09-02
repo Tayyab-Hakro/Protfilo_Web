@@ -2,7 +2,7 @@ export const fadein = (direction , delay) =>{
 return {
     hidden:{
         y: direction === 'up' ? 20 : direction === 'down' ? -60 :0,
-        x: direction === 'left' ? 20 : direction === 'right' ? -20 :0,
+        x: direction === 'left' ? 100 : direction === 'right' ? -100 :0,
 
     },
 
@@ -12,9 +12,9 @@ return {
         opacity:1,
         transition:{
             type:'tween',
-            duration:0.6,
+            duration:0.3,
             delay: delay,
-            ease: [0.4,0.25,0.25,0.25,]
+            ease: [0.4,0.5,0.5,0.4,]
         }
 
     }

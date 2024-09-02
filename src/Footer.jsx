@@ -22,15 +22,14 @@ function Footer() {
 
         {/* Section 2: Navigation Links */}
         <div className="flex-1 mb-6 lg:mb-0">
-          <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+          <h3 className="text-xl font-bold mb-4">My Accounts</h3>
           <ul className="space-y-2">
-            <li><Link to="/about" className="hover:underline">About</Link></li>
-            <li><Link to="/services" className="hover:underline">Services</Link></li>
-            <li><Link to="/contact" className="hover:underline">Contact</Link></li>
+            <li><Link to="https://www.youtube.com/@tayyabhakro2003" className="hover:underline">Youtube</Link></li>
+            <li><Link    to="https://www.linkedin.com/in/mohammad-tayyab-hakro-1231a0289/" className="hover:underline">Linkldin</Link></li>
+            <li><Link to="https://github.com/Tayyab-Hakro?tab=repositories"  className="hover:underline">Articles</Link></li>
           </ul>
         </div>
-
-        {/* Section 3: Contact Info and Social Media */}
+    
         <div className="flex-1 flex flex-col">
           <h3 className="text-xl font-bold mb-4 justify-center items-center">Contact Us</h3>
           <a href="mailto:contact@mywebsite.com" className="flex justify-center items-center mb-4 hover:underline">
