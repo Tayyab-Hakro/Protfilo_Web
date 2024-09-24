@@ -23,9 +23,9 @@ const Contact = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} className="max-w-lg mt-10 mb-10 mx-auto p-6 bg-slate-500 shadow-md rounded-lg">
+    <form ref={form} onSubmit={sendEmail} className="max-w-lg mt-10 text-black mb-10 mx-auto p-6 bg-slate-700 shadow-md rounded-lg">
       {/* Grid for two inputs in one row */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+      <div className="grid grid-cols-1 bg-re sm:grid-cols-2 gap-4 mb-4">
         {/* Name Input */}
         <div>
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">

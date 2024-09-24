@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGit, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiExpress, SiMongodb, SiNodedotjs } from 'react-icons/si';
-import './index.css'; // Make sure to import your CSS file
+import './index.css';
 import myouc from './mt.png';
 
 function About() {
@@ -26,56 +26,46 @@ function About() {
         </div>
       </div>
 
-      {/* Uncomment if needed */}
-      {/* 
-      <div className="w-full lg:w-2/3 mb-8">
-        <h2 className="text-2xl font-bold mb-4 items-center flex justify-center text-white">Experience</h2>
-        <div className="grid grid-cols-3 sm:grid-cols-3 gap-6 sm:justify-center md:justify-between lg:grid-cols-1">
-          <p></p>
-        </div>
-      </div>
-      */}
-
       <div className="w-full lg:w-2/3">
-        <h2 className="text-2xl font-bold mb-4 items-center text-center text-white sm:flex sm:justify-center md:flex">Skills</h2>
-        <div className="flex flex-wrap gap-6 grid-cols-5 sm:flex-col md:grid-cols-5 md:flex-row md:gap-10 sm:grid-cols-4 justify-center">
+        <h2 className="text-2xl font-bold mb-4 text-center text-white">Skills</h2>
+        <div className="grid grid-cols-4 sm:grid-cols-5 gap-6 justify-center">
           <div className="flex items-center flex-col">
             <FaHtml5 className="text-4xl text-orange-600" />
             <span className="text-white">HTML</span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex items-center flex-col">
             <FaCss3Alt className="text-4xl text-blue-600" />
             <span className="text-white">CSS</span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex items-center flex-col">
             <FaJsSquare className="text-4xl text-yellow-500" />
             <span className="text-white">JavaScript</span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex items-center flex-col">
             <FaReact className="text-4xl text-blue-400" />
             <span className="text-white">React</span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex items-center flex-col">
             <SiExpress className="text-4xl text-black" />
             <span className="text-white">Express</span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex items-center flex-col">
             <SiMongodb className="text-4xl text-green-500" />
             <span className="text-white">MongoDB</span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex items-center flex-col">
             <SiNodedotjs className="text-4xl text-green-700" />
             <span className="text-white">Node.js</span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex items-center flex-col">
             <FaGit className="text-4xl text-orange-700" />
             <span className="text-white">Git</span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex items-center flex-col">
             <FaGithub className="text-4xl text-gray-800" />
             <span className="text-white">GitHub</span>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex items-center flex-col">
             <FaLinkedin className="text-4xl text-blue-700" />
             <span className="text-white">LinkedIn</span>
           </div>
