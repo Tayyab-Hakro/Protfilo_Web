@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGit, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiExpress, SiMongodb, SiNodedotjs } from 'react-icons/si';
 import './index.css';
@@ -6,7 +5,7 @@ import myouc from './mt.png';
 
 function About() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center bg-slate-800 p-6">
+    <div className="w-full min-h-screen flex flex-col items-center bg-slate-900 p-6">
       <h1 className="text-4xl font-bold mb-8 text-white">Tayyab Hakro</h1>
       
       <div className="w-full lg:w-2/3 flex flex-col lg:flex-row items-center bg-slate-800 shadow-lg p-6 rounded-lg mb-8">

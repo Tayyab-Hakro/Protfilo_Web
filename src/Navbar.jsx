@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa'; // Import icons
 
@@ -64,20 +64,20 @@ function Navbar() {
         <div className="absolute top-16 left-0 w-full bg-slate-500 md:hidden">
           <ul className="flex flex-col items-center gap-4 py-4">
             <li>
-              <Link to="/" className="text-white" onClick={toggleMenu}>Home</Link>
+              <Link to="/Protfilo_Web/" className="text-white" onClick={toggleMenu}>Home</Link>
             </li>
             <li>
-              <Link to="/about" className="text-white" onClick={toggleMenu}>About Us</Link>
+              <Link to="/Protfilo_Web/about" className="text-white" onClick={toggleMenu}>About Us</Link>
             </li>
             <li>
-              <Link to="/contact" className="text-white" onClick={toggleMenu}>Contact</Link>
+              <Link to="/Protfilo_Web/contact" className="text-white" onClick={toggleMenu}>Contact</Link>
             </li>
             <li>
-              <Link to="/work" className="text-white" onClick={toggleMenu}>Work</Link>
+              <Link to="/Protfilo_Web/work" className="text-white" onClick={toggleMenu}>Work</Link>
             </li>
             <li>
               
-              <Link to="/services" className="text-white" onClick={toggleMenu}>Services</Link>
+              <Link to="/Protfilo_Web/services" className="text-white" onClick={toggleMenu}>Services</Link>
               <div className='flex justify-center items-center'>
               <Link to="https://www.linkedin.com/in/mohammad-tayyab-hakro-1231a0289/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-green-200 transition-colors duration-300">
             <FaLinkedin size={24} />

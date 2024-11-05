@@ -13,7 +13,7 @@ function HeroPage() {
 
   return (
     <>
-      <div className="w-full bg-slate-700 h-full flex flex-col lg:flex-row text-center lg:text-left p-10 items-center justify-center lg:justify-between">
+      <div className="w-full bg-slate-900 h-full flex flex-col lg:flex-row text-center lg:text-left p-10 items-center justify-center lg:justify-between">
         <motion.div 
           variants={fadein("left", 0, 2)}
           initial="hidden"
@@ -33,10 +33,10 @@ function HeroPage() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.90 }} 
-          className="textPoint text-white ml-32 sm:ml-0 sm:p-10 mt-10 lg:mt-0"
+          className="textPoint text-white ml-40 sm:ml-0 sm:p-10 mt-10 lg:mt-0"
         >
           <h1 className="text-4xl font-black">
-            Hi I am <span className="text-blue-400">Mohammad Tayyab</span>
+            Hi I am <span className="text-blue-400">Mohammad Tayyab Hakro</span>
           </h1>
           <h4 className="text-2xl mt-3 font-serif">
             & Expert Freelancer Full-Stack Developer

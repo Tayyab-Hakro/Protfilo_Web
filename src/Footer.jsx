@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <footer 
- className="w-full bg-gray-800 text-white py-8 px-4 ">
+ className="w-full bg-slate-900 text-white py-8 px-4 ">
       <motion.div     variants={fadein("up",0.10)}
       initial='hidden'
       whileInView={"show"}
